@@ -1,0 +1,17 @@
+[33mcommit 507e52e2e6ebbac0a49b726f3a5e3f5d61887e67[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: root <sergio.suaf@hotmail.com>
+Date:   Mon Aug 9 22:36:56 2021 -0500
+
+    v1 figuras geométricas
+
+[33mcommit 3a410d621f582c8d9ff718ab80f6c41c85c1f009[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: root <sergio.suaf@hotmail.com>
+Date:   Thu Aug 5 20:53:38 2021 -0500
+
+    añadi la carpeta .vscode al archivo . gitignore
+
+[33mcommit f8ef89c2d2a4716e18eff4bad733abb2334b2236[m
+Author: sergiofishtank <42050566+sergiofishtank@users.noreply.github.com>
+Date:   Mon Aug 2 21:34:15 2021 -0500
+
+    Initial commit

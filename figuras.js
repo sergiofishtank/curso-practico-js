@@ -113,6 +113,34 @@ function calcularAreaTriangulo(){
     const area = areaTriangulo(base,altura);
     alert(area)
 }
+//Isosceles
+function alturaIsosceles(h,b){
+    return Math.sqrt((Math.pow(h,2))-Math.pow((b/2),2));
+}
+function calcularAreaIsosceles(){
+    const input1 = document.getElementById("InputLado1Iso");
+    const input2 = document.getElementById("InputLado2Iso");
+    const input3 = document.getElementById("InputLado3Iso");
+
+    const lado1 = parseInt(input1.value);
+    const lado2 = parseInt(input2.value);
+    const lado3 = parseInt(input3.value);
+    
+    if(lado1===0 || lado2 === 0 || lado3 === 0){
+        alert ("Valores inncorrectos, no es un triángulo")
+    }else if(lado1 === lado2 && lado1 != lado3){
+        const altura = alturaIsosceles(lado1,lado3)
+        alert (`La altura del triangulo Isósceles es ${altura}`);        
+    }else if(lado1 === lado3 && lado1 != lado2){
+        const altura = alturaIsosceles(lado1,lado2)
+        alert (`La altura del triangulo Isósceles es ${altura}`);
+    }else if(lado2 === lado3 && lado2 != lado1){
+        const altura = alturaIsosceles(lado2,lado1)
+        alert (`La altura del triangulo Isósceles es ${altura}`);
+    }else{
+        alert ("No es isósceles")
+    }    
+}
 
 //Circulo
 
