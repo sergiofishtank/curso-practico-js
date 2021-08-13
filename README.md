@@ -22,3 +22,10 @@
 - Segundo: implementar las fórmulas en js
 - Tercero: crear funciones
 - Cuarto: Integrar js con HTML
+
+## Taller 3: Promedio, mediana y moda
+
+- Primero: Definir las formulas
+- Segundo: implementar las fórmulas en js
+- Tercero: crear funciones
+- Cuarto: Integrar js con HTML
